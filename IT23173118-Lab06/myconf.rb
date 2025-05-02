@@ -1,0 +1,1 @@
+Dir.glob("/**/*.conf").each { |file| puts file if File.file?(file) }
